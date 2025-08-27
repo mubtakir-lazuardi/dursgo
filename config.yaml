@@ -19,6 +19,17 @@ oast: false
 render_js: false
 user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 
+# AI (LLM) Integration Settings
+ai:
+  enabled: false
+  provider: "gemini" # Supported: "gemini", "groq"
+  api_key: "GEMINI_API_KEY"
+  model: "gemini-2.0-flash"
+  # --- Other Provider Examples ---
+  # provider: "groq"
+  # api_key: "GROQ_API_KEY"
+  # model: "meta-llama/llama-4-scout-17b-16e-instruct"
+
 # Output settings
 output:
   verbose: false
@@ -75,7 +86,7 @@ authentication:
 #  # Define custom headers within the 'headers' section
 #  headers:
 #    # Example for Bearer Token (JWT)
-#  Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+#   Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 #    
 #    # Example for a custom API Key
 #    X-API-Key: "apy-kay-secret-12345"
