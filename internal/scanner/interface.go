@@ -1,9 +1,9 @@
 package scanner
 
 import (
-	"github.com/roomkangali/dursgo/internal/crawler"
-	"github.com/roomkangali/dursgo/internal/httpclient"
-	"github.com/roomkangali/dursgo/internal/logger"
+	"github.com/mubtakir-lazuardi/dursgo/internal/crawler"
+	"github.com/mubtakir-lazuardi/dursgo/internal/httpclient"
+	"github.com/mubtakir-lazuardi/dursgo/internal/logger"
 )
 
 type Scanner interface {

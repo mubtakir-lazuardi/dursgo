@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roomkangali/dursgo/internal/enrichment/cisa"
+	"github.com/mubtakir-lazuardi/dursgo/internal/enrichment/cisa"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

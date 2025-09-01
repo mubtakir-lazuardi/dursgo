@@ -1,4 +1,4 @@
-module github.com/roomkangali/dursgo
+module github.com/mubtakir-lazuardi/dursgo
 
 go 1.23.10
 

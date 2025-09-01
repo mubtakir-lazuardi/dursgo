@@ -1,8 +1,8 @@
 package fingerprint
 
 import (
-	"github.com/roomkangali/dursgo/internal/httpclient"
-	"github.com/roomkangali/dursgo/internal/logger"
+	"github.com/mubtakir-lazuardi/dursgo/internal/httpclient"
+	"github.com/mubtakir-lazuardi/dursgo/internal/logger"
 	"io"
 	"net/http"
 	"strings"
